@@ -29,7 +29,7 @@ body {
 .navbar {
   /* border: 2px solid turquoise; */
   margin-top: 30px;
-  height: 60px;
+  height: 70px;
   display: flex;
   position: sticky;
   top: 50px;
@@ -83,15 +83,28 @@ body {
   font-size: large;
 }
 .introbut {
-  border: 2px solid red;
-  display: flex;
+  /* border: 2px solid red; */
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  display: block;
 }
-.introbut button{
-  justify-content: center;
+.introbut button {
   margin: auto;
   background-color: black;
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  
-  
+  margin: 0;
+  padding: 0 3.5rem;
+  height: 2.81rem;
+  border-radius: 7px;
+  background-color: #000;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 30%);
+  color: #fff;
+  font-family: "Mulish", sans-serif;
+  margin: 20px 50px;
+
+}
+.introbut #custombut {
+  color: black;
+  background-color: white;
+  border-color: white;
 }
