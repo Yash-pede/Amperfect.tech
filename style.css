@@ -1,6 +1,6 @@
 body {
   height: 10000px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 100%;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ body {
   display: flex;
   /* border: 2px solid red; */
   width: 100%;
-  height: 39px;
+  height: 50px;
   background-color: black;
   color: white;
   font-family: "Itim", cursive;
@@ -22,7 +22,7 @@ body {
 }
 .name img {
   /* border: 2px solid khaki; */
-  width: 8em;
+  width: auto;
   position: relative;
   left: 200px;
 }
@@ -32,7 +32,7 @@ body {
   height: 60px;
   display: flex;
   position: sticky;
-  top: 37px;
+  top: 50px;
   background-color: rgba(255, 255, 255, 0.614);
   backdrop-filter: blur(7px) contrast(140%) saturate(80%);
 }
@@ -71,4 +71,27 @@ body {
 
   font-family: "Ubuntu", sans-serif;
   font-size: 5em;
+}
+.discription {
+  display: flex;
+  /* border: 2px solid salmon; */
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  font-family: "Kanit", sans-serif;
+  color: grey;
+  font-size: large;
+}
+.introbut {
+  border: 2px solid red;
+  display: flex;
+}
+.introbut button{
+  justify-content: center;
+  margin: auto;
+  background-color: black;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  
+  
 }
