@@ -1,7 +1,7 @@
 body {
   height: 10000px;
   /* border: 2px solid black; */
-  width: 100%;
+  max-width: max-content;
   box-sizing: border-box;
 }
 
@@ -34,7 +34,7 @@ body {
   position: sticky;
   top: 50px;
   background-color: rgba(255, 255, 255, 0.614);
-  backdrop-filter: blur(7px) contrast(140%) saturate(80%);
+  backdrop-filter: blur(7px) contrast(140%) saturate(280%);
 }
 .navbar li a {
   text-decoration: none;
@@ -68,8 +68,7 @@ body {
 .heading h1 {
   text-align: center;
   margin-top: 2.5em;
-
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-size: 5em;
 }
 .discription {
@@ -90,21 +89,43 @@ body {
   display: block;
 }
 .introbut button {
-  margin: auto;
   background-color: black;
   margin: 0;
   padding: 0 3.5rem;
   height: 2.81rem;
   border-radius: 7px;
   background-color: #000;
-  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 30%);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128);
   color: #fff;
   font-family: "Mulish", sans-serif;
   margin: 20px 50px;
-
+  border: none;
 }
 .introbut #custombut {
   color: black;
   background-color: white;
   border-color: white;
+}
+.introbut button:hover {
+  cursor: pointer;
+}
+
+.AboutUs {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+.AboutUs p {
+  border: 2px solid red;
+  display: inline-block;
+  text-align: left;
+  margin: 7rem   auto;
+  padding: 50px;
+  width: 500px;
+}
+.AboutUs .Yash img {
+  height: 30rem;
+  width: auto;
+  margin-top: 20px;
 }
