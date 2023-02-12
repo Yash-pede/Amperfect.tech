@@ -73,6 +73,7 @@ body {
   font-weight: 400;
   font-size: 100px;
   line-height: 1;
+  text-shadow: 2px 2px 7px grey;
 }
 .discription {
   display: flex;
@@ -119,7 +120,12 @@ body {
   flex-direction: row-reverse;
   justify-content: left;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
+  border: 7px solid #1A120B;
+  border-radius: 7%;
+  padding: 10px;
+  margin: auto 50px;
+  margin-top: 5rem;
 }
 .AboutUs p {
   /* border: 2px solid red; */
