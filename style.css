@@ -110,7 +110,7 @@ body {
   height: 2.81rem;
   border-radius: 7px;
   background-color: #000;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128);
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 0 7px red, 0 0 7px blue;
   color: #fff;
   font-family: "Mulish", sans-serif;
   margin: 20px 50px;
@@ -120,6 +120,7 @@ body {
   color: black;
   background-color: white;
   border-color: white;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 0 7px red, 0 0 7px blue;
 }
 .introbut button:hover {
   cursor: pointer;
