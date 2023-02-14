@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 }
 
-#page{
+#page {
   color: #000;
 }
 
@@ -42,7 +42,7 @@ body {
   display: flex;
   position: sticky;
   top: 50px;
-  width:100%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.614);
   backdrop-filter: blur(7px) contrast(140%) saturate(150%);
   z-index: 99;
@@ -63,7 +63,7 @@ body {
 .navbar ul {
   /* overflow: hidden; */
   display: flex;
-  border: 2px solid slateblue;
+  /* border: 2px solid slateblue; */
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -93,7 +93,6 @@ body {
 }
 .discription {
   display: flex;
-  /* border: 2px solid salmon; */
   text-align: center;
   width: 70%;
   margin: auto;
@@ -101,6 +100,7 @@ body {
   color: grey;
   font-size: large;
 }
+
 .introbut {
   /* border: 2px solid red; */
   display: inline-block;
@@ -108,7 +108,7 @@ body {
   text-align: center;
   display: block;
 }
-.introbut button {
+.introbut button{
   background-color: black;
   margin: 0;
   padding: 0 3.5rem;
@@ -121,11 +121,17 @@ body {
   margin: 20px 50px;
   border: none;
 }
+.introbut button a{
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+  color: #fff;
+}
 .introbut #custombut {
   color: black;
   background-color: white;
   border-color: white;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 1 7px navajowhite, 0 0 7px blueviolet;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 1 7px navajowhite,
+    0 0 7px blueviolet;
 }
 .introbut button:hover {
   cursor: pointer;

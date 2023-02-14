@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 }
 
-#page{
+#page {
   color: #000;
 }
 
@@ -42,7 +42,7 @@ body {
   display: flex;
   position: sticky;
   top: 50px;
-  width:100%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.614);
   backdrop-filter: blur(7px) contrast(140%) saturate(150%);
   z-index: 99;
@@ -63,7 +63,7 @@ body {
 .navbar ul {
   /* overflow: hidden; */
   display: flex;
-  border: 2px solid slateblue;
+  /* border: 2px solid slateblue; */
   width: 100%;
   justify-content: center;
   text-align: center;
@@ -89,13 +89,22 @@ body {
   font-weight: 400;
   font-size: 100px;
   line-height: 1;
-  text-shadow: 2px 2px 7px grey;
+  text-shadow: 2px 2px 7px grey, 0px 0px 1px green;
+  background-image: linear-gradient(90deg, red, blue);
+  background-size: 0 4px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+}
+.heading h1:hover {
+  background-size: 100% 4px;
 }
 .discription {
   display: flex;
   /* border: 2px solid salmon; */
   text-align: center;
   width: 70%;
+  justify-content: center;
   margin: auto;
   font-family: "Kanit", sans-serif;
   color: grey;
@@ -125,7 +134,8 @@ body {
   color: black;
   background-color: white;
   border-color: white;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 1 7px navajowhite, 0 0 7px blueviolet;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.128), 0 1 7px navajowhite,
+    0 0 7px blueviolet;
 }
 .introbut button:hover {
   cursor: pointer;
