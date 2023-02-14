@@ -2,7 +2,7 @@
   scroll-behavior: smooth;
 }
 
-#page {
+#page{
   color: #000;
 }
 
@@ -42,7 +42,7 @@ body {
   display: flex;
   position: sticky;
   top: 50px;
-  width: 100%;
+  width:100%;
   background-color: rgba(255, 255, 255, 0.614);
   backdrop-filter: blur(7px) contrast(140%) saturate(150%);
   z-index: 99;
@@ -63,12 +63,17 @@ body {
 .navbar ul {
   /* overflow: hidden; */
   display: flex;
+  /* border: 2px solid slateblue; */
+  width: 100%;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
 }
-.navbar img {
+.navbar a img {
   margin-top: 5px;
+  width: 60px;
+  height: auto;
+  /* border: 2px solid black; */
   margin-right: 100px;
   position: relative;
   left: 160px;
@@ -119,12 +124,12 @@ body {
   text-decoration: none;
   color: #fff;
 }
-.vikas h1{
+.vikas h1 {
   font-family: "Merriweather Sans", sans-serif;
   text-align: center;
   margin-top: 2em;
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
-  text-shadow: 2px 2px 7px grey, 0 0 5px red,0 0 5px blue;
+  text-shadow: 2px 2px 7px grey, 0 0 5px red, 0 0 5px blue;
 }
