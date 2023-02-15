@@ -36,7 +36,7 @@ body {
   left: 200px;
 }
 .navbar {
-  /* border: 2px solid turquoise; */
+  border: 2px solid turquoise;
   margin-top: 30px;
   height: 70px;
   display: flex;
@@ -53,7 +53,7 @@ body {
 }
 .navbar li {
   list-style: none;
-  /* border: 2px solid slateblue; */
+  border: 2px solid slateblue;
   padding: 10px 10px;
   margin: 0 15px;
   position: relative;
@@ -63,7 +63,7 @@ body {
 .navbar ul {
   /* overflow: hidden; */
   display: flex;
-  /* border: 2px solid slateblue; */
+  border: 2px solid slateblue;
   width: 100%;
   justify-content: center;
   text-align: center;
